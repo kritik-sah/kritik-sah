@@ -14,7 +14,7 @@ export default function HomePage() {
           <div className={styles.content}>
             <h1 className={styles.name}>Kritik Sah</h1>
             <h6 className={styles.bio}>Full Stack Web Developer</h6>
-            <p className={styles.profile}>Greetings! I'm Kritik Sah, a front-end developer with 3+ years experience. My journey includes frontend leadership at a web3 firm, contributions to a marketing agency and online pharmacy e-com projects, and a strong passion for user-centric UI and open-source.</p>
+            <p className={styles.profile}>Greetings! I'm Kritik Sah, a fullstack developer (frontend focused) with 3+ years experience. My journey includes frontend leadership at a web3 firm, contributions to a marketing agency and online pharmacy e-com projects, and a strong passion for user-centric UI, Teaching (Own a Youtube Channel with 7.1k Subscriber) and open-source.</p>
             <Link href="/projects">
               <button className={styles.button}>View Work</button>
             </Link>

@@ -72,21 +72,85 @@ const AboutPage = () => {
    
   ];
 
-
+  const opensourceItems = [
+    {
+      social: 'ethereum',
+      link: '2023 Ethereum.org Contributor',
+      href: 'https://www.gitpoap.io/p/itrebel.eth',
+    },
+    {
+      social: 'poap',
+      link: '2023 POAP.gallery Contributor',
+      href: 'https://www.gitpoap.io/p/itrebel.eth',
+    },
+   
+  ];
+  const hackthonItems = [
+    {
+      social: 'ethGlobal',
+      link: 'Polygon Road to Web3 Hackathon Winner Badge',
+      href: 'https://opensea.io/assets/matic/0x93e2ff8110e15f7befc52d6f72b87700aa4b51c7/6',
+    },
+    {
+      social: 'moralis',
+      link: 'Web3 Twitter Buidler',
+      href: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/113461209507512867518933452141320285231135646094834536306130710989420835635700',
+    },
+   
+  ];
+  const testItems = [
+    {
+      social: 'linkedIn',
+      link: 'HTML',
+      href: 'https://www.linkedin.com/in/kritiksah/details/skills/',
+    },
+    {
+      social: 'linkedIn',
+      link: 'Cascading Style Sheets (CSS)',
+      href: 'https://www.linkedin.com/in/kritiksah/details/skills/',
+    },
+    {
+      social: 'linkedIn',
+      link: 'React.js',
+      href: 'https://www.linkedin.com/in/kritiksah/details/skills/',
+    },
+    {
+      social: 'linkedIn',
+      link: 'Search Engine Optimization (SEO)',
+      href: 'https://www.linkedin.com/in/kritiksah/details/skills/',
+    },
+    {
+      social: 'linkedIn',
+      link: 'Front-End Development',
+      href: 'https://www.linkedin.com/in/kritiksah/details/skills/',
+    },
+  
+   
+  ];
 
 
 
   return (
     <>
       <h1 className="text-xl">A Little Bit About Me</h1>
-      <p className="my-4">Greetings! I'm Kritik Sah, a front-end developer with 3+ years experience. My journey includes frontend leadership at a web3 firm, contributions to a marketing agency and online pharmacy e-com projects, and a strong passion for user-centric UI and open-source.</p>
+      <p className="my-4">Greetings! I'm Kritik Sah, a fullstack developer (frontend focused) with 3+ years experience. My journey includes frontend leadership at a web3 firm, contributions to a marketing agency and online pharmacy e-com projects, and a strong passion for user-centric UI, Teaching (Own a Youtube Channel with 7.1k Subscriber) and open-source.</p>
+      <div className="my-4"></div>
       <hr className="my-6"/>
-      <h2 className="my-4 text-lg">EXPERIENCE</h2>
+      <div className="my-4"></div>
+      <h2 className="my-4 text-lg">WORK EXPERIENCE</h2>
       <ContactCode code={daostructItems} title={"DAOstruct"}/>
       <div className="my-4"></div>
       <ContactCode code={truemedsItems} title={"Truemeds 💊"}/>
       <div className="my-4"></div>
       <ContactCode code={tonicWorldWideItems} title={"TonicWorldWide"}/>
+      <hr className="my-6"/>
+      <div className="my-4"></div>
+      <h2 className="my-4 text-lg">OTHER EXPERIENCE</h2>
+      <ContactCode code={opensourceItems} title={"OpenSourceContibutions"}/>
+      <div className="my-4"></div>
+      <ContactCode code={hackthonItems} title={"Hackathons"}/>
+      <div className="my-4"></div>
+      <ContactCode code={testItems} title={"testsBadges"}/>
     </>
   );
 };
