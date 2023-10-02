@@ -9,7 +9,7 @@
 }
 
 .background {
-  font-size: 5rem;
+  font-size: 15rem;
   font-family: 'Montserrat';
   line-height: 1.1;
   color: var(--bg-text);
@@ -37,7 +37,7 @@
   color: #eee;
   font-size: 1.5rem;
   font-weight: 300;
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
   position: relative;
 }
 
@@ -62,6 +62,10 @@
   background: var(--accent-color);
   animation: typewriter 2.5s steps(24) 500ms forwards,
     blink 750ms steps(24) infinite;
+}
+
+.profile{
+  margin-bottom: 1.5rem;
 }
 
 @keyframes typewriter {

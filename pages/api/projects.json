@@ -1,37 +1,71 @@
 [
   {
     "id": 1,
-    "name": "Driwwwle",
-    "image": "https://imgur.com/kbGs6zH.png",
-    "description": "A platform for web developers to showcase their projects",
-    "tags": ["next", "node", "mongodb", "tailwind", "react-query"],
+    "name": "Full Stack Portfolio",
+    "image": "/projects/portfolio.png",
+    "description": "I created this website to showcase my expertise in web development.",
+    "tags": ["next", "node", "notion", "tailwind", "react", "github api", "Dev.to Api", "SEO", "css-modules", "API"],
     "source_code": "https://github.com/itsnitinr/driwwwle-v2",
     "demo": "https://driwwwle.com/"
   },
   {
     "id": 2,
-    "name": "PCB Cupid",
-    "image": "https://imgur.com/tAZotn3.png",
-    "description": "E-commerce website for a PCB manufacturing company",
-    "tags": ["react", "node", "mongodb", "redux", "razorpay", "material-ui"],
-    "demo": "https://www.pcbcupid.com/"
+    "name": "ServicesStrategy.com",
+    "image": "/projects/servicesstrategy.png",
+    "description": "I started working as a freelancer in 2018, and now I have my own web development company.",
+    "tags": ["wordpress", "elemetor", "javascript", "php", "razorpay","SEO"],
+    "demo": "https://servicesstrategy.com/"
   },
   {
     "id": 3,
-    "name": "HealthyWays",
-    "image": "https://imgur.com/8FFqaX8.png",
-    "description": "A food ordering platform for healthy and home-cooked meals",
-    "tags": ["react", "node", "mongodb", "redux", "razorpay", "material-ui"],
-    "source_code": "https://github.com/itsnitinr/healthyways",
-    "demo": "https://healthyways.herokuapp.com/"
+    "name": "InfiniteLearning.org.in",
+    "image": "/projects/infinitelearning.png",
+    "description": "Infinite Learning – Revolutionising the Local Coaching Center Website.",
+    "tags": ["wordpress", "ACF", "javascript", "php", "razorpay","SEO","Analitics"],
+    "demo": "https://infinitelearning.org.in/"
   },
   {
     "id": 4,
-    "name": "VSCode Portfolio",
-    "image": "https://imgur.com/mKkz0iz.png",
-    "description": "A themeable and developer-centric portfolio based on the VSCode",
-    "tags": ["next", "css-modules"],
-    "source_code": "https://github.com/itsnitinr/vscode-portfolio",
-    "demo": "http://vscode-portfolio.vercel.app/"
+    "name": "Fitndur",
+    "image": "/projects/fitndur.png",
+    "description": "Fitndur is a digital platform which helps you to find ideal nearby gyms,Pools, health clubs for you.",
+    "tags": ["next", "tailwind", "SEO", "redux","zustand","react","scss"],
+    "demo": "https://fitndur.vercel.app/"
+  },
+  {
+    "id": 5,
+    "name": "CocktailDB",
+    "image": "/projects/cocktail.png",
+    "description": "I created this website to showcase my expertise in web development.",
+    "tags": ["next", "node", "SCSS", "tailwind", "react", "github", "API"],
+    "source_code": "https://github.com/kritik-sah/coctaildb",
+    "demo": "https://coctaildb.vercel.app/"
+  },
+  {
+    "id": 6,
+    "name": "Astronomy PID",
+    "image": "/projects/astronomy.png",
+    "description": "Astronomy - Picture of the day - by NASA API, I created this website to showcase my expertise in web development.",
+    "tags": ["next", "node", "SCSS", "tailwind", "react", "github", "API"],
+    "source_code": "https://github.com/kritik-sah/astronomy-pid",
+    "demo": "https://astronomy-pid.vercel.app/"
+  },
+  {
+    "id": 7,
+    "name": "Bank DAPP with Smart Contract",
+    "image": "/projects/bank.png",
+    "description": "A simple Bank smartcontract and a react nextjs web application to interact with it.",
+    "tags": ["solidity", "ethers", "ethereum", "tailwind", "react", "github"],
+    "source_code": "https://github.com/kritik-sah/metacrafters/tree/master/3_module",
+    "demo": "https://youtu.be/Tg9zvfxjw70?si=HywaBrSTK2XKu4-j"
+  },
+  {
+    "id": 8,
+    "name": "NFT Gating website(Dapp)",
+    "image": "/projects/nftgating.png",
+    "description": "A simple Dapp which allows only selective people to see specific content (That's secrect)",
+    "tags": ["wagmi", "ethers", "ethereum", "tailwind", "react", "solidity"],
+    "source_code": "https://github.com/kritik-sah/nftGatingWebsite",
+    "demo": "https://nftgatingsimplified.vercel.app/"
   }
 ]

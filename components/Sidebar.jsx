@@ -30,9 +30,14 @@ const sidebarTopItems = [
     Icon: MailIcon,
     path: '/contact',
   },
+  
 ];
 
 const sidebarBottomItems = [
+  {
+    Icon: FilesIcon,
+    path: '/resume',
+  },
   {
     Icon: AccountIcon,
     path: '/about',

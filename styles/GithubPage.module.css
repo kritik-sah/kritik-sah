@@ -8,6 +8,11 @@
   margin-bottom: 1.5rem;
 }
 
+.avatar{
+  border-radius: 1000px;
+  overflow: hidden;
+}
+
 .user > div {
   display: flex;
   flex-wrap: wrap;

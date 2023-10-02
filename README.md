@@ -1,49 +1,72 @@
-# vscode-portfolio
-[![Open is Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/itsnitinr/vscode-portfolio)
+# Hello! 👋 I am Kritik Sah
+[![Linkedin Badge](https://img.shields.io/badge/-Kritik%20Sah-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/kritiksah/)](https://www.linkedin.com/in/kritiksah)
+[![Twitter Badge](https://img.shields.io/badge/-@KritikSah-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/sahkritik)](https://twitter.com/sahkritik)
+[![Discord Badge](https://img.shields.io/badge/-IT%20Rebeles-8B89CC?style=flat-square&logo=Discord&logoColor=white&link=https://discord.gg/wHxK4VGPbV)](https://discord.gg/wHxK4VGPbV)
+[![Instagram Badge](https://img.shields.io/badge/-kritik.sah-fbad50?style=flat-square&logo=Instagram&logoColor=black&link=https://www.instagram.com/kritik.sah/)](https://www.instagram.com/kritik.sah/)
+[![Youtube Badge](https://img.shields.io/badge/-IT%20Rebels-ff0000?style=flat-square&logo=Youtube&logoColor=white&link=https://www.youtube.com/itrebels)](https://www.youtube.com/itrebels)
+<p align="left">
+  <img src="https://img.shields.io/github/followers/kritik-sah?color=1f222e&label=Followers&style=social" alt="kritik-sah" /> &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=kritik-sah&label=Profile%20views&color=0e75b6&style=flat" alt="kritik-sah" />
+</p>
 
-A Visual Studio Code themed developer portfolio website built with Next.js and deployed on Vercel.
+# Profile
+Greetings, my name is Kritik, and I am a 23-year-old frontend web developer. I possess a strong zeal for expanding my knowledge and skillset within the realm of web3 and blockchain technology.
+<br />
 
-![vscode-portfolio banner](https://imgur.com/JXJ9mpO.gif)
+# Open-Source contributions / Badges
+|2023 POAP.gallery<br/>Contributor|2023 ethereum.org<br/>Contributor|
+|-----------------|-------------------|
+|[<img src="https://assets.poap.xyz/gitpoap3a-2023-poapgallery-contributor-2022-logo-1671234027079.png" width="100" alt="kritik-sah" />](https://www.gitpoap.io/p/itrebel.eth)|[<img src="https://assets.poap.xyz/gitpoap3a-2023-ethereumorg-contributor-2022-logo-1671568487547.png" width="100" alt="kritik-sah" />](https://www.gitpoap.io/p/itrebel.eth)|
+# Open For
+- [Work] Frontend lead, Solidity developer / Auditing, Dev. rel. Community management, Business Development roles in web3.
+- [Collabration] contact me on [twitter](https://twitter.com/sahkritik), would love to work with you😁.
+- [Sponsorship] We are on a mission to on-board 1000 devs in Web3, We definitely need support. so let us know what can we do for you and what can you offer, currently, we have around 7.1k subs on our youtube channel, where I post web development content, tutorials, and projects, and recently started teaching web3 development too.
 
-## Features Roadmap
 
-- [ ] Themes and customizations
-  - [x] GitHub Dark (default)
-  - [ ] One Dark Pro
-  - [x] Dracula
-  - [x] Ayu
-  - [x] Nord
-- [ ] Interactive custom terminal
+[📄 Download my CV](https://github.com/kritik-sah/resume/raw/main/2023/resume.pdf)
 
-For other features and themes suggestions, please open an issue.
+## Some of my GitHub Stats
+<h3>Trophies 🏆:</h3>
+<p align="left">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=kritik-sah&theme=onedark&margin-h=15&margin-w=15&column=4">
+    <img src="https://github-profile-trophy.vercel.app/?username=kritik-sah&margin-w=15&margin-h=15&column=8" alt="kritik-sah" />
+  </picture>
+</p>
 
-## Environment Variables
+<p align="left">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=kritik-sah&show_icons=true&locale=en&theme=dark">
+    <img src="https://github-readme-stats.vercel.app/api?username=kritik-sah&show_icons=true&locale=en" alt="kritik-sah" />
+  </picture>&nbsp;&nbsp;&nbsp;
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs?username=kritik-sah&show_icons=true&locale=en&layout=compact&theme=dark">
+    <img align="top" src="https://github-readme-stats.vercel.app/api/top-langs?username=kritik-sah&show_icons=true&locale=en&layout=compact" alt="kritik-sah" />
+  </picture>
+</p>
 
-For fetching your articles from dev.to, create an `.env.local` file inside the project directory. Check the `.env.local.example` file for more information.
+<p align="left">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=kritik-sah&theme=dark">
+    <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=kritik-sah&" alt="kritik-sah" />
+  </picture>
+</p>
 
-## Running Development Server
+## Support us
+help me out to make more educational content and contribution to opensource projects.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+itrebel.eth [ETH, MATIC, BNB chain]: metamask
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+AaG3kBDvUjUgyYH6T8pwDVskNFUPMmSWVVJtUVM9UeBd [Solana]
 
-All VSCode related components can be found in the `components` folder. To change the content of the portfolio, check out the `pages` folder. To add or remove pages, modify `components/Sidebar.jsx` and `components/Tabsbar.jsx`.
+0xb64499fe6be6368c6e305ecc3b37dd15d584dcecabb3b27bab6e3c97100aab9b [Aptos - petra wallet]
 
-## Next.js Resources
+3GBbpgGn2szbY6bJRULqPBts4s316LLreM [bitcoin wallet - Xverse wallet]
 
-To learn more about Next.js, take a look at the following resources:
+## sponsorship
+Sponsor our courses & channel ITRebels We are on a mission to onboard 1000 devs in Web3.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+please email us if you want to help/sponsor us out itrebels.in@gmail.com
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+⭐️ From [kritik-sah](https://github.com/kritik-sah)

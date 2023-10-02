@@ -26,11 +26,54 @@ const ContactPage = () => {
     }
   };
 
+  const contactItems = [
+    {
+      social: 'website',
+      link: 'kritik.servicesstrategy.com',
+      href: 'https://kritik.servicesstrategy.com',
+    },
+    {
+      social: 'youTube',
+      link: 'IT Rebels',
+      href: 'https://www.youtube.com/@ITRebels',
+    },
+    {
+      social: 'email',
+      link: 'kritiksahco@gmail.com',
+      href: 'mailto:kritiksahco@gmail.com',
+    },
+    {
+      social: 'github',
+      link: 'kritik-sah',
+      href: 'https://github.com/kritik-sah',
+    },
+    {
+      social: 'linkedin',
+      link: 'Kritik sah',
+      href: 'https://www.linkedin.com/in/kritiksah/',
+    },
+    {
+      social: 'twitter',
+      link: 'sahkritik',
+      href: 'https://twitter.com/sahkritik',
+    },
+    {
+      social: 'instagram',
+      link: 'kritik.sah',
+      href: 'https://www.instagram.com/kritik.sah',
+    },
+    {
+      social: 'upwork',
+      link: 'Kritik S.',
+      href: 'https://www.upwork.com/freelancers/~017c8efb6c6d49d654?viewMode=1',
+    },
+  ];
+
   return (
     <div className={styles.container}>
       <div>
         <h3 className={styles.heading}>Reach Out Via Socials</h3>
-        <ContactCode />
+        <ContactCode code={contactItems} title={"socials"}/>
       </div>
       <div>
         <h3 className={styles.heading}>Or Fill Out This Form</h3>
