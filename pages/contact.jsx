@@ -1,71 +1,66 @@
-import { useState } from 'react';
-import ContactCode from '../components/ContactCode';
-import styles from '../styles/ContactPage.module.css';
+import { useState } from "react";
+import ContactCode from "../components/ContactCode";
+import styles from "../styles/ContactPage.module.css";
 
 const ContactPage = () => {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [subject, setSubject] = useState('');
-  const [message, setMessage] = useState('');
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [message, setMessage] = useState("");
 
   const submitForm = async (e) => {
     e.preventDefault();
     console.log(process.env.NEXT_PUBLIC_API_URL);
     const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/contact`, {
-      method: 'POST',
+      method: "POST",
       body: JSON.stringify({ name, email, subject, message }),
     });
     if (res.ok) {
-      alert('Your response has been received!');
-      setName('');
-      setEmail('');
-      setSubject('');
-      setMessage('');
+      alert("Your response has been received!");
+      setName("");
+      setEmail("");
+      setSubject("");
+      setMessage("");
     } else {
-      alert('There was an error. Please try again in a while.');
+      alert("There was an error. Please try again in a while.");
     }
   };
 
   const contactItems = [
     {
-      social: 'website',
-      link: 'kritik.servicesstrategy.com',
-      href: 'https://kritik.servicesstrategy.com',
+      social: "website",
+      link: "cryptolancer.in",
+      href: "https://www.cryptolancer.in/",
     },
     {
-      social: 'youTube',
-      link: 'IT Rebels',
-      href: 'https://www.youtube.com/@ITRebels',
+      social: "youTube",
+      link: "IT Rebels",
+      href: "https://www.youtube.com/@ITRebels",
     },
     {
-      social: 'email',
-      link: 'kritiksahco@gmail.com',
-      href: 'mailto:kritiksahco@gmail.com',
+      social: "email",
+      link: "kritiksahco@gmail.com",
+      href: "mailto:kritiksahco@gmail.com",
     },
     {
-      social: 'github',
-      link: 'kritik-sah',
-      href: 'https://github.com/kritik-sah',
+      social: "github",
+      link: "kritik-sah",
+      href: "https://github.com/kritik-sah",
     },
     {
-      social: 'linkedin',
-      link: 'Kritik sah',
-      href: 'https://www.linkedin.com/in/kritiksah/',
+      social: "linkedin",
+      link: "Kritik sah",
+      href: "https://www.linkedin.com/in/kritiksah/",
     },
     {
-      social: 'twitter',
-      link: 'sahkritik',
-      href: 'https://twitter.com/sahkritik',
+      social: "twitter",
+      link: "itrebeleth",
+      href: "https://twitter.com/itrebeleth",
     },
     {
-      social: 'instagram',
-      link: 'kritik.sah',
-      href: 'https://www.instagram.com/kritik.sah',
-    },
-    {
-      social: 'upwork',
-      link: 'Kritik S.',
-      href: 'https://www.upwork.com/freelancers/~017c8efb6c6d49d654?viewMode=1',
+      social: "instagram",
+      link: "kritik.sah",
+      href: "https://www.instagram.com/kritik.sah",
     },
   ];
 
@@ -73,7 +68,7 @@ const ContactPage = () => {
     <div className={styles.container}>
       <div>
         <h3 className={styles.heading}>Reach Out Via Socials</h3>
-        <ContactCode code={contactItems} title={"socials"}/>
+        <ContactCode code={contactItems} title={"socials"} />
       </div>
       <div>
         <h3 className={styles.heading}>Or Fill Out This Form</h3>
@@ -133,7 +128,7 @@ const ContactPage = () => {
 
 export async function getStaticProps() {
   return {
-    props: { title: 'Contact' },
+    props: { title: "Contact" },
   };
 }
 
