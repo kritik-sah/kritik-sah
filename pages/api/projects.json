@@ -4,7 +4,18 @@
     "name": "Full Stack Portfolio",
     "image": "/projects/portfolio.png",
     "description": "I created this website to showcase my expertise in web development.",
-    "tags": ["next", "node", "notion", "tailwind", "react", "github api", "Dev.to Api", "SEO", "css-modules", "API"],
+    "tags": [
+      "next",
+      "node",
+      "notion",
+      "tailwind",
+      "react",
+      "github api",
+      "Dev.to Api",
+      "SEO",
+      "css-modules",
+      "API"
+    ],
     "source_code": "https://github.com/kritik-sah/kritik-sah",
     "demo": "https://www.cryptolancer.in"
   },
@@ -13,7 +24,7 @@
     "name": "ServicesStrategy.com",
     "image": "/projects/servicesstrategy.png",
     "description": "I started working as a freelancer in 2018, and now I have my own web development company.",
-    "tags": ["wordpress", "elemetor", "javascript", "php", "razorpay","SEO"],
+    "tags": ["wordpress", "elemetor", "javascript", "php", "razorpay", "SEO"],
     "demo": "https://servicesstrategy.com/"
   },
   {
@@ -21,7 +32,15 @@
     "name": "InfiniteLearning.org.in",
     "image": "/projects/infinitelearning.png",
     "description": "Infinite Learning – Revolutionising the Local Coaching Center Website.",
-    "tags": ["wordpress", "ACF", "javascript", "php", "razorpay","SEO","Analitics"],
+    "tags": [
+      "wordpress",
+      "ACF",
+      "javascript",
+      "php",
+      "razorpay",
+      "SEO",
+      "Analitics"
+    ],
     "demo": "https://infinitelearning.org.in/"
   },
   {
@@ -29,7 +48,7 @@
     "name": "Fitndur",
     "image": "/projects/fitndur.png",
     "description": "Fitndur is a digital platform which helps you to find ideal nearby gyms,Pools, health clubs for you.",
-    "tags": ["next", "tailwind", "SEO", "redux","zustand","react","scss"],
+    "tags": ["next", "tailwind", "SEO", "redux", "zustand", "react", "scss"],
     "demo": "https://fitndur.vercel.app/"
   },
   {
@@ -67,5 +86,24 @@
     "tags": ["wagmi", "ethers", "ethereum", "tailwind", "react", "solidity"],
     "source_code": "https://github.com/kritik-sah/nftGatingWebsite",
     "demo": "https://nftgatingsimplified.vercel.app/"
+  },
+  {
+    "id": 9,
+    "name": "ETH to Blast L2(Bridge Dapp)",
+    "image": "/projects/eth-blast-bridge.png",
+    "description": "A simple Dapp which allows user to transfer (bridge) their $eth from ethereum Sepolia chain to blast L2 chain ",
+    "tags": [
+      "wagmi",
+      "veim",
+      "ethers",
+      "ethereum",
+      "tailwind",
+      "react",
+      "next",
+      "rainbow kit",
+      "solidity"
+    ],
+    "source_code": "https://github.com/kritik-sah/blast-l2-bridge",
+    "demo": "https://blast-l2.chainlabs.in/"
   }
 ]
