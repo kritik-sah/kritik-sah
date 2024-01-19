@@ -12,7 +12,7 @@ const Resume = () => {
       <h1 className="my-4">
         Liked my work. Reach out to me I would love to work with you!
       </h1>
-      <a href="/kritiksah-frontend.pdf" download target="_blank">
+      <a href="/kritiksah-sde.pdf" download target="_blank">
         <button className={styles.button}>Download CV</button>
       </a>
     </div>
